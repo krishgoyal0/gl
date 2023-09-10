@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgba(0,0,0,0.5) url("https://skilloutlook.com/wp-content/uploads/2017/11/Galgotias-University.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+.menu-bar{
+    background-color: rgb(91, 91, 179);
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo{
+    height: 40px;
+    width: 200px;
+    background-image: url("https://www.galgotiasuniversity.edu.in/public/uploads/media/6nEZgXfZAHbEKIvU1aAKQW4DT3BzKust4penCoJZ.png");
+    background-size: cover;
+    margin-left: 0px;
+    border-radius: 75%;
+
+}
+
+.l-text{
+    color: white;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    margin-right: 200px;
+}
+
+.menu-bar ul{
+    list-style: none;
+    display: flex;
+    margin-left: 180px;
+}
+
+.menu-bar ul li{
+    padding: 10px 30px;
+    position: relative;
+
+}
+
+.menu-bar ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.menu-bar ul li a:hover{
+    color: aqua;
+    font-size: 19px;
+   /* border: 3px solid black;
+    padding: 10px 10px;*/
+
+}
+
+.text{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 100px;
+    animation: fadeIn 3.5s;
+}
+
+@keyframes fadeIn {
+    0%{ font-size: 40px; opacity: 0%;}
+    100%{ font-size: 80px; opacity: 100%;}
+}
+
+
+
+
